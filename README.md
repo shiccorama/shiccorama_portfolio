@@ -6,15 +6,15 @@ application up and running.
 
 Things you may want to cover:
 
-* Ruby version
+* Ruby version == 3.1.0
 
-* System dependencies
+* System dependencies == 
 
-* Configuration
+* Configuration ==
 
-* Database creation
+* Database creation == postgresql
 
-* Database initialization
+* Database initialization == initialized
 
 * How to run the test suite
 
