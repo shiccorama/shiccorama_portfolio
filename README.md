@@ -1,8 +1,22 @@
 # README
 # Shiccorama Portfolio App.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+> This is a Ruby on Rails application that allows people to create their own portfolio applications
+
+### features :
+- real time chat engine for comments
+- portfolio
+- drag and drop
+- blogs
+
+
+### code example :
+
+``` ruby
+def hello_dear
+    puts "hello my dear friend"
+end
+```
 
 Things you may want to cover:
 
