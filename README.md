@@ -17,6 +17,12 @@ def hello_dear
     puts "hello my dear friend"
 end
 ```
+### python example code
+
+``` python
+def hello_dear
+    print "hello my dear friend"
+```
 
 Things you may want to cover:
 
