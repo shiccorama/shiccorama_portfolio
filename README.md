@@ -16,7 +16,7 @@
 def hello_dear
     puts "hello my dear friend"
 end
-```
+``` 
 ### python example code
 
 ``` python
