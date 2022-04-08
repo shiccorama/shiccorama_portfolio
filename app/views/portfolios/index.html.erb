@@ -1,0 +1,10 @@
+<h2> Portfolio Index Page <h2>
+
+	<% @portfolios.each do |p| %>
+
+		<p><%= p.title %></p>
+		<p><%= p.subtitle %></p>
+		<p><%= p.body %></p>
+		<%= image_tag p.thumb_image %>
+
+	<% end %>
