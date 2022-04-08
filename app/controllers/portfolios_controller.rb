@@ -6,7 +6,7 @@ class PortfoliosController < ApplicationController
 
 
 	def show
-	
+		@portfolios = Portfolio.find(params[:id])
 	end
 
 
