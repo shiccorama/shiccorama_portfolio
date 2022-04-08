@@ -1,10 +1,23 @@
-<h2> Portfolio Index Page <h2>
+<h2> Portfolio Index Page </h2>
+
+	<h3>
+		<%= link_to "Add New Portfolio", new_portfolio_path %>	
+	</h3>
+
+<!-- 	<a href="/portfolios/new">add new portfolio the old way </a> -->
+
+
 
 	<% @portfolios.each do |p| %>
 
 		<p><%= p.title %></p>
 		<p><%= p.subtitle %></p>
 		<p><%= p.body %></p>
-		<%= image_tag p.thumb_image unless p.thumb_image.nil?%>
+		<%= image_tag p.thumb_image unless p.thumb_image.nil?%></br>
+		<button><%= link_to "Edit Portfolio", edit_portfolio_path(p.id) %></button>
+
+<!-- 		<a href="/portfolios/<%= p.id %>/edit"> edit portfolio the old way</a> -->
+
 
 	<% end %>
+	
