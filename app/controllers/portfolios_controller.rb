@@ -13,8 +13,6 @@ class PortfoliosController < ApplicationController
 		@portfolios = Portfolio.new
 	end
 
-	def edit
-	end
 
 	def create
 		@portfolios = Portfolio.new(portfolio_params)
@@ -27,6 +25,25 @@ class PortfoliosController < ApplicationController
 			end
 		end
 
+	end
+
+
+
+	def edit
+		@portfolios = Portfolio.find(params[:id])
+	end
+
+
+	def update
+		@portfolios = Portfolio.find(params[:id])
+
+		respond_to do |format|
+			if @portfolios.update(portfolio_params)
+				format.html { redirect_to portfolios_path, notice: "Portfolio updated successfully."}
+			else
+				format.html {render :new, status: :unprocessable_entity}
+			end
+		end
 	end
 
 
