@@ -20,7 +20,7 @@ class PortfoliosController < ApplicationController
 
 		respond_to do |format|
 			if @portfolios.save
-				format.html { redirect_to portfolios_path, notice: "Portfolio created successfully."}
+				format.html { redirect_to portfolios_url, notice: "Portfolio created successfully."}
 			else
 				format.html {render :new, status: :unprocessable_entity}
 			end
@@ -44,6 +44,16 @@ class PortfoliosController < ApplicationController
 			else
 				format.html {render :new, status: :unprocessable_entity}
 			end
+		end
+	end
+
+	def destroy
+		@portfolios = Portfolio.find(params[:id])
+
+		@portfolios.destroy
+
+		respond_to do |format|
+			format.html { redirect_to portfolios_path, notice: "Blog was successfully destroyed." }
 		end
 	end
 
