@@ -1,0 +1,26 @@
+gem 'friendly_id', '~> 5.4.0'
+
+bundle install --
+
+rails g friendly_id
+
+rails db:migrate --
+
+rails g migration add_slug_to_blogs slug:string:uniq
+
+rails db:migrate --
+
+Edit the app/models/Blog.rb file as the following:
+
+    class Blog < ApplicationRecord
+    extend FriendlyId
+    friendly_id :title, use: :slugged
+    end
+
+
+Edit the app/controllers/Blog_controller.rb file and replace User.find by Blog.friendly.find
+
+    def set_blog
+      @blog = Blog.friendly.find(params[:id])
+    end
+
