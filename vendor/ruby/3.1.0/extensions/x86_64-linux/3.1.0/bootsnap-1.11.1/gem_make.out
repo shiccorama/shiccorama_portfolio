@@ -1,0 +1,15 @@
+current directory: /media/shiccomint/DATA/FOCUS/My_Dev_Projects/Ruby_Lab/ShiccoramaPortfolio/vendor/ruby/3.1.0/gems/bootsnap-1.11.1/ext/bootsnap
+/home/shiccomint/.rvm/rubies/ruby-3.1.0/bin/ruby -I /home/shiccomint/.rvm/rubies/ruby-3.1.0/lib/ruby/3.1.0 -r ./siteconf20220430-81444-v0fu44.rb extconf.rb
+creating Makefile
+
+current directory: /media/shiccomint/DATA/FOCUS/My_Dev_Projects/Ruby_Lab/ShiccoramaPortfolio/vendor/ruby/3.1.0/gems/bootsnap-1.11.1/ext/bootsnap
+make DESTDIR\= clean
+
+current directory: /media/shiccomint/DATA/FOCUS/My_Dev_Projects/Ruby_Lab/ShiccoramaPortfolio/vendor/ruby/3.1.0/gems/bootsnap-1.11.1/ext/bootsnap
+make DESTDIR\=
+compiling bootsnap.c
+linking shared-object bootsnap/bootsnap.so
+
+current directory: /media/shiccomint/DATA/FOCUS/My_Dev_Projects/Ruby_Lab/ShiccoramaPortfolio/vendor/ruby/3.1.0/gems/bootsnap-1.11.1/ext/bootsnap
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 bootsnap.so ./.gem.20220430-81444-aqi2cl/bootsnap
