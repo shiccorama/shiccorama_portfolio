@@ -1,0 +1,26 @@
+<h2> Portfolio Index Page </h2>
+	<p style="color: green"><%= notice %></p>
+	<h3>
+		<%= link_to "Add New Portfolio", new_portfolio_path %>	
+	</h3>
+
+<!-- 	<a href="/portfolios/new">add new portfolio the old way </a> -->
+
+
+
+	<% @portfolios.each do |p| %>
+
+
+		<h4><%= p.title %></h4>
+		<p><%= p.subtitle %></p>
+		<p><%= p.body %></p>
+		<%= image_tag p.thumb_image unless p.thumb_image.nil?%></br>
+		<button><%= link_to "Edit Portfolio", edit_portfolio_path(p.id) %></button>
+		<%= button_to "Delete Portfolio", p, method: :delete, data: {confirm: "Are you sure?"}%>
+
+
+<!-- 		<a href="/portfolios/<%= p.id %>/edit"> edit portfolio the old way</a> -->
+
+
+	<% end %>
+	

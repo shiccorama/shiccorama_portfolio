@@ -1,0 +1,11 @@
+<h1><%=   @portfolios.title  %></h1>
+
+<%= image_tag @portfolios.main_image  unless @portfolios.main_image.nil? %></br>
+<h4><%= @portfolios.subtitle %></h4>
+<p><%= @portfolios.body %></p>
+
+<button><%= link_to "Edit Portfolio", edit_portfolio_path %></button>
+
+
+
+<!-- note that we delete (@portfolios.id) from edit_portfolio_path(@portfolios.id) because rails is smart enough to know that we want to show this item. -->

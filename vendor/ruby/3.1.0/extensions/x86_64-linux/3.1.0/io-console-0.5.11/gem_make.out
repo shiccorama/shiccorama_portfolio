@@ -1,0 +1,19 @@
+current directory: /media/shiccomint/0361a759-d0e2-484e-aea7-d7b8c7a7d1de/ruby_lab/Ruby_Lab/ShiccoramaPortfolio/vendor/ruby/3.1.0/gems/io-console-0.5.11/ext/io/console
+/home/shiccomint/.rvm/rubies/ruby-3.1.0/bin/ruby -I /home/shiccomint/.rvm/rubies/ruby-3.1.0/lib/ruby/3.1.0 -r ./siteconf20220504-27451-129vpu.rb extconf.rb
+checking for termios.h... yes
+checking for cfmakeraw() in termios.h... yes
+checking for sys/ioctl.h... yes
+checking for HAVE_RUBY_FIBER_SCHEDULER_H... yes
+creating Makefile
+
+current directory: /media/shiccomint/0361a759-d0e2-484e-aea7-d7b8c7a7d1de/ruby_lab/Ruby_Lab/ShiccoramaPortfolio/vendor/ruby/3.1.0/gems/io-console-0.5.11/ext/io/console
+make DESTDIR\= clean
+
+current directory: /media/shiccomint/0361a759-d0e2-484e-aea7-d7b8c7a7d1de/ruby_lab/Ruby_Lab/ShiccoramaPortfolio/vendor/ruby/3.1.0/gems/io-console-0.5.11/ext/io/console
+make DESTDIR\=
+compiling console.c
+linking shared-object io/console.so
+
+current directory: /media/shiccomint/0361a759-d0e2-484e-aea7-d7b8c7a7d1de/ruby_lab/Ruby_Lab/ShiccoramaPortfolio/vendor/ruby/3.1.0/gems/io-console-0.5.11/ext/io/console
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 console.so ./.gem.20220504-27451-jmzv76/io

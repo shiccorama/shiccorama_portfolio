@@ -1,0 +1,15 @@
+current directory: /media/shiccomint/0361a759-d0e2-484e-aea7-d7b8c7a7d1de/ruby_lab/Ruby_Lab/ShiccoramaPortfolio/vendor/ruby/3.1.0/gems/bindex-0.8.1/ext/skiptrace
+/home/shiccomint/.rvm/rubies/ruby-3.1.0/bin/ruby -I /home/shiccomint/.rvm/rubies/ruby-3.1.0/lib/ruby/3.1.0 -r ./siteconf20220504-27451-hknn3e.rb extconf.rb
+creating Makefile
+
+current directory: /media/shiccomint/0361a759-d0e2-484e-aea7-d7b8c7a7d1de/ruby_lab/Ruby_Lab/ShiccoramaPortfolio/vendor/ruby/3.1.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= clean
+
+current directory: /media/shiccomint/0361a759-d0e2-484e-aea7-d7b8c7a7d1de/ruby_lab/Ruby_Lab/ShiccoramaPortfolio/vendor/ruby/3.1.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\=
+compiling cruby.c
+linking shared-object skiptrace/internal/cruby.so
+
+current directory: /media/shiccomint/0361a759-d0e2-484e-aea7-d7b8c7a7d1de/ruby_lab/Ruby_Lab/ShiccoramaPortfolio/vendor/ruby/3.1.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 cruby.so ./.gem.20220504-27451-8jfsgn/skiptrace/internal

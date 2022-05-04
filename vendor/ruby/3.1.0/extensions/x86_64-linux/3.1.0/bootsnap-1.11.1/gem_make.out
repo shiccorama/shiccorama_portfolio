@@ -1,0 +1,15 @@
+current directory: /media/shiccomint/0361a759-d0e2-484e-aea7-d7b8c7a7d1de/ruby_lab/Ruby_Lab/ShiccoramaPortfolio/vendor/ruby/3.1.0/gems/bootsnap-1.11.1/ext/bootsnap
+/home/shiccomint/.rvm/rubies/ruby-3.1.0/bin/ruby -I /home/shiccomint/.rvm/rubies/ruby-3.1.0/lib/ruby/3.1.0 -r ./siteconf20220504-27451-gpnu5c.rb extconf.rb
+creating Makefile
+
+current directory: /media/shiccomint/0361a759-d0e2-484e-aea7-d7b8c7a7d1de/ruby_lab/Ruby_Lab/ShiccoramaPortfolio/vendor/ruby/3.1.0/gems/bootsnap-1.11.1/ext/bootsnap
+make DESTDIR\= clean
+
+current directory: /media/shiccomint/0361a759-d0e2-484e-aea7-d7b8c7a7d1de/ruby_lab/Ruby_Lab/ShiccoramaPortfolio/vendor/ruby/3.1.0/gems/bootsnap-1.11.1/ext/bootsnap
+make DESTDIR\=
+compiling bootsnap.c
+linking shared-object bootsnap/bootsnap.so
+
+current directory: /media/shiccomint/0361a759-d0e2-484e-aea7-d7b8c7a7d1de/ruby_lab/Ruby_Lab/ShiccoramaPortfolio/vendor/ruby/3.1.0/gems/bootsnap-1.11.1/ext/bootsnap
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 bootsnap.so ./.gem.20220504-27451-ib7sxo/bootsnap
