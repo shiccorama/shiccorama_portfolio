@@ -6,7 +6,18 @@ Rails.application.routes.draw do
   root to: "pages#home"
   get "about-me", to: "pages#about"
   get "contact-us", to: "pages#contact"
-  resources :blogs
+
+
+  #this is how we add new member/action to existing routes/resources,
+  #you add the action name as get or post, and inside member add as many as
+  #you want of actions.
+
+  resources :blogs do
+    member do
+      get :"toggle_status"
+    end
+  end
+
 
   # Note that we replaced every (/) with (#) to declare the root page and also to use aliases for the rest of the pages.
 

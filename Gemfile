@@ -30,6 +30,7 @@ gem "jbuilder"
 # My custom gems -- installed by me :
 
 gem 'friendly_id', '~> 5.4.0' 
+gem 'byebug'
 
 # Use Redis adapter to run Action Cable in production
 # gem "redis", "~> 4.0"
